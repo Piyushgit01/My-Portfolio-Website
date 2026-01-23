@@ -1,0 +1,382 @@
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    /* navbar---------------------- */
+
+    .nav ul {
+        gap: 35px;
+    }
+
+
+    /* Main inside---------------------- */
+
+    /* about---------------------- */
+
+
+    .about-item {
+        gap: 30px;
+    }
+
+    .about-img img {
+        width: 370px;
+        height: 500px;
+        border-radius: 20px;
+    }
+
+    .about-btn .btn1 {
+        font-size: 15px;
+    }
+
+    .about-btn .btn2 {
+        font-size: 15px;
+    }
+}
+
+/* skills---------------------- */
+
+.skill-items h2 {
+    font-size: 60px;
+}
+
+.skill-items1 .skill1:hover {
+    background-color: rgb(4, 133, 184);
+    color: white;
+}
+
+.skill-items1 .skill1 i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.skill-items1 .skill1 h3 {
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.skill-items1 .skill1 p {
+    padding-top: 10px;
+}
+
+/* Contact---------------------- */
+
+.contact-items {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aqua; */
+
+}
+
+.social-icons a i {
+    font-size: 30px;
+    color: rgb(141, 138, 138);
+    transition: 0.2s;
+}
+
+.social-icons a i:hover {
+    color: rgb(4, 133, 184);
+    transform: translateY(-5px);
+}
+
+/* Form---------------------- */
+
+form {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+form button {
+    width: 115px;
+    padding: 10px 30px;
+}
+
+/* Footer---------------------- */
+
+@media only screen and (max-width:767px) {
+
+    body,
+    html {
+        width: 766px;
+    }
+
+    /* navbar---------------------- */
+
+    .nav-items ul {
+        display: flex;
+        /* REQUIRED */
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 250px 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 115, 192);
+
+        position: fixed;
+        top: 0;
+        right: -765px;
+
+        transition: right 0.3s ease;
+        /* smooth slide */
+    }
+
+    .nav-items ul.show {
+        right: 0;
+    }
+
+
+    .nav-items ul li {
+        width: 700px;
+        text-align: center;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px;
+    }
+
+    .nav-items ul li a {    
+        font-size: 50px;
+        font-weight: 550;
+    }
+
+    .nav-items i {
+        display: block;
+        position: absolute;
+        font-size: 40px;
+        color: white;
+        z-index: 0;
+        right: 40px;
+        bottom: 30px;
+    }
+
+    /* Main inside---------------------- */
+
+    /* about---------------------- */
+
+    .about-head h2 {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .about-head h2::after {
+        display: none;
+    }
+
+    .about-item {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .about-img img {
+        width: 650px;
+        height: 800px;
+    }
+
+    .about-content {
+        width: 600px;
+    }
+
+    .about-content .p1 {
+        font-size: 30px;
+    }
+
+    .about-content p {
+        font-size: 40px;
+    }
+
+    .about-content h3 {
+        font-size: 55px;
+    }
+
+    .about-btn .btn1 {
+        font-size: 40px;
+    }
+
+    .about-btn .btn2 {
+        font-size: 40px;
+    }
+
+
+    /* skills---------------------- */
+
+    .skill-items h2 {
+        font-size: 100px;
+    }
+
+    .skill-items1 .skill1:hover {
+        background-color: rgb(4, 133, 184);
+        color: white;
+    }
+
+    .skill-items1 .skill1 i {
+        font-size: 100px;
+        margin-bottom: 30px;
+    }
+
+    .skill-items1 .skill1 h3 {
+        font-size: 55px;
+    }
+
+    .skill-items1 .skill1 p {
+        font-size: 30px;
+    }
+
+    .skill-items1 {
+        grid-template-columns: 1fr;
+    }
+
+    /* Contact---------------------- */
+
+    #Contact {
+        min-width: 592px;
+        flex-direction: column;
+    }
+
+    .social-icons a i {
+        font-size: 40px;
+        color: rgb(141, 138, 138);
+        transition: 0.2s;
+    }
+
+    .social-icons a i:hover {
+        color: rgb(4, 133, 184);
+        transform: translateY(-5px);
+    }
+
+    .contact-items h2 {
+        font-size: 100px;
+    }
+
+    .contact-items p {
+        font-size: 25px;
+    }
+
+    /* Form----------------- */
+
+    form input {
+        padding: 20px 40px;
+        font-size: 30px;
+    }
+
+    form button {
+        width: 200px;
+        font-size: 30px;
+    }
+
+    /* Footer-------------- */
+
+    footer {
+        padding-top: 30px;
+    }
+
+}
+
+/* @media only screen and (max-width:656px) { */
+/* navbar---------------------- */
+
+/* .nav-items ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(0, 115, 192);
+        position: absolute;
+        top: 0;
+        right: -670px;
+    }
+    .nav-items ul.show {
+        right: 0;
+    }
+    .nav-items ul li {
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-bottom: 5px;
+    }
+
+    .nav-items ul li a {
+        font-size: 28px;
+        font-weight: 550;
+    }
+
+    .nav-items i {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        z-index: 0;
+        right: 40px;
+        bottom: 20px;
+    } */
+
+
+/* Main inside---------------------- */
+
+/* about---------------------- */
+/* .about-head {
+        min-width: 565px;
+    }
+
+    .about-head h2 {
+        font-size: 70px;
+    }
+
+    .about-head h2::after {
+        display: none;
+    }
+
+    .about-item {
+        min-width: 592px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-img img {
+        width: 500px;
+        height: 700px;
+    }
+
+    .about-content {
+        /* background-color: aliceblue; */
+/* width: 500px;
+} */
+
+*/
+/* skills---------------------- */
+/* #Skills {
+        min-width: 592px;
+    }
+
+    .skill-items1 .skill1 {
+        width: 515px;
+        grid-column: span 2;
+    } */
+
+
+/* Contact---------------------- */
+
+/* #Contact {
+        min-width: 592px;
+        flex-direction: column;
+    }
+
+    .social-icons a i {
+        font-size: 30px;
+        color: rgb(141, 138, 138);
+        transition: 0.2s;
+    }
+
+    .social-icons a i:hover {
+        color: rgb(4, 133, 184);
+        transform: translateY(-5px);
+    } */
+
+/* Footer */
+
+/* footer {
+        min-width: 592px;
+    } */

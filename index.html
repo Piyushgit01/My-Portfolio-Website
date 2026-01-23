@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <!---Navbar Section-->
+    <nav id="Navbar">
+        <div class="nav">
+            <h2>Portfolio</h2>
+            <div class="nav-items">
+                <!-- <span id="spa">&times;</span> -->
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" id="btn"></i>
+            </div>
+
+        </div>
+    </nav>
+
+    <!---Main Section-->
+
+    <main>
+        <!---About Section-->
+
+        <div id="About">
+            <div class="about-head">
+                <h2>About</h2>
+            </div>
+            <div class="about-item">
+                <div class="about-img">
+                    <img src="img/piyush.jpeg" alt="image"">
+         </div>
+         <div class=" about-content">
+                    <p class="p1">HELLO</p>
+                    <h3>I'm <span>Piyush Kesharwani</span></h3>
+                    <p>I am a passionate UI Web Developer with hands-on experience in designing clean, responsive, and
+                        user-friendly websites. I build modern web interfaces using HTML, CSS, and JavaScript, with a
+                        strong understanding of DOM manipulation. I focus on creating pixel-perfect layouts, smooth user
+                        interactions, and performance-optimized designs. I enjoy turning ideas and designs into
+                        functional, visually appealing web experiences.</p>
+                    <div class="about-btn">
+                        <button class="btn1">View Work</button>
+                        <a href="Piyush Kesharwani Web Development Resume.pdf" download class="btn2">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---Skill Section-->
+
+        <div id="Skills">
+            <div class="skill-items">
+                <h2>Skills</h2>
+            </div>
+            <div class="skill-items1">
+                <div class="skill1 skills">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>HTML is used to create the structure of a website. It defines elements like headings, paragraphs,
+                        images, and links. HTML uses tags to organize content on a web page. It is the foundation of all
+                        web pages.
+                    </p>
+                </div>
+                <div class="skill1 skills2">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>CSS is used to style and design web pages. It controls colors, fonts, layout, and responsiveness.
+                        CSS makes websites attractive and user-friendly. It works together with HTML.</p>
+                </div>
+                <div class="skill1 skills3">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>Javascript</h3>
+                    <p>JavaScript adds interactivity to websites. It handles user actions like clicks and form
+                        validation. JS can change HTML and CSS dynamically. It makes web pages more functional and
+                        interactive.</p>
+                </div>
+            </div>
+        </div>
+
+        <!---Contact Section-->
+
+        <div id="Contact">
+            <div class="contact-items">
+                <h2>Contact</h2>
+                <p>Mobile :- +91 7489147715</p>
+                <p>Email :- piyushkesharwanijb@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+            </div>
+
+            <!---Form Section-->
+
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <button>Submit</button>
+            </form>
+        </div>
+
+    </main>
+
+    <!---Footer Section-->
+
+    <footer>
+        &copy;<span>Piyush Kesharwani</span>
+    </footer>
+
+</body>
+<script>
+
+    const btn = document.getElementById("btn");
+    const menu = document.getElementById("menu");
+    const span = document.getElementById("spa")
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("show");
+    });
+</script>
+
+</script>
+
+</html>
